@@ -1,5 +1,5 @@
 # FastUILibrary
-UI library for BipOS (Amazfit Bip firmware mod). [Repository with demo application](https://github.com/Yuukari/FastUIDemo)
+UI library for BipOS (Amazfit Bip firmware mod)
 
 ## Features
 
