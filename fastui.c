@@ -310,7 +310,6 @@ int gestureSwitch(struct Switch* c, struct gesture_* gest) {
 void drawSwitch(struct Switch* c) {
 	show_res_by_id(c->enabled ? ICON_TOGGLE_ON : ICON_TOGGLE_OFF, c->x, c->y + (c->height / 2) - 13);
 
-	set_bg_color(COLOR_BLACK);
 	set_fg_color(c->text_color);
 	text_out(c->text, c->x + 53 + c->text_padding, c->y + (c->height / 2) - (get_text_height() / 2));
 
@@ -428,7 +427,6 @@ int gestureCheckbox(struct Checkbox* c, struct gesture_* gest) {
 void drawCheckbox(struct Checkbox* c) {
 	show_res_by_id(c->enabled ? CHECK_BOX_ON : CHECK_BOX_OFF, c->x, c->y + (c->height / 2) - 12);
 
-	set_bg_color(COLOR_BLACK);
 	set_fg_color(c->text_color);
 	text_out(c->text, c->x + 25 + c->text_padding, c->y + (c->height / 2) - (get_text_height() / 2));
 

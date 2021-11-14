@@ -2,7 +2,7 @@
 
 /************************************************/
 /*                                              */
-/*               FastUI beta v1.0               */
+/*              FastUI beta v1.0.1              */
 /*                                              */
 /*          UI library for BipOS 0.5.2+         */
 /*                                              */
@@ -12,9 +12,6 @@
 /************************************************/
 
 /* Options */
-
-#define FASTUI_BASE_FG_COLOR COLOR_WHITE
-#define FASTUI_BASE_BG_COLOR COLOR_BLACK
 
 #define FASTUI_UPDATE_DELAY 150
 
